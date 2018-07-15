@@ -3,8 +3,91 @@
   <head>
     <meta charset="UTF-8">
     <title>Basic Podcast Template</title>
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #62071a;
+        max-width: 40em;
+        margin: 0.5em;
+        padding: 1em;
+        color: #ffffff;
+
+        font: 400 13pt/18pt "Sitka Text", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+        font-variant-numeric: oldstyle-nums tabular-nums;
+      }
+
+      h1 {
+        font: 400 26pt/26pt "Sitka Heading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+
+        color: #ffffff;
+      }
+
+      h2 {
+        font: 400 20pt/27pt "Sitka Subheading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+      }
+
+      a:link {
+        color: #ffb72f;
+      }
+
+      a:visited {
+        color: #fe6f5e;
+      }
+
+      time{color:#cd8182;}
+
+      ul.episode-list {
+        list-style: none;
+        padding: 0;
+        line-height: 1.3;
+      }
+
+      @media (max-width: 50em) {
+        ul.episode-list li {
+          margin: 1em 0;
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:after {
+        content: "°";
+        color: #cd8182;
+      }
+
+      a:hover {
+        background: #7C241E;
+      }
+    </style>
   </head>
   <body>
-    <h1>Basic Podcast Template</h1>
+
+    <header>
+      <h1>Basic Podcast Template</h1>
+    </header>
+
+    <main>
+      <ul class="episode-list">
+        <li><span class="episode-number">Episode 10:</span> <a href="#10">La konscio ne nur reflektas la mondon</a> <time>(2018-07-12)</time></li>
+        <li>Episode 9: <a href="#09">Sed ankaŭ ŝanĝas ĝin…</a> <time>(2018-06-25)</time></li>
+        <li>Episode 8: <a href="#08">Cxar, estante kreita de homa agado</a> <time>(2018-05-04)</time></li>
+        <li>Episode 7: <a href="#07">Faras al ĝi retroan determinan influon</a> <time>(2018-04-17)</time></li>
+        <li>Episode 6: <a href="#06">Ĉi tiu leĝo malkovras la fonton de evoluo</a> <time>(2018-03-09)</time></li>
+        <li>Episode 5: <a href="#05">Produktivaj fortoj determinas produktadajn rilatojn</a> <time>(2018-02-01)</time></li>
+        <li>Episode 4: <a href="#04">Kiel uzvaloroj varoj diferencas nur kvalite</a> <time>(2018-01-23)</time></li>
+        <li>Episode 3: <a href="#03">Cxar ili kontentigas malsamajn bezonojn de homoj</a> <time>(2017-12-17)</time></li>
+        <li>Episode 2: <a href="#02">Sed ne diferencas kvante kvante</a> <time>(2017-11-19)</time></li>
+        <li>Episode 1: <a href="#01">Cxar ili estas heterogenaj kaj rekte ne kunmezureblaj</a> <time>(2017-10-05)</time></li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>This work is released under a <a href="#cc">Creative Commons</a> license.</p>
+    </footer>
   </body>
 </html>
