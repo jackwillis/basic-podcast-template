@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #62071a;
+    max-width: 40em;
+    margin: 0.5em;
+    padding: 1em;
+    color: #ffffff;
+
+    font: 400 13pt/18pt "Sitka Text", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+    font-variant-numeric: oldstyle-nums tabular-nums;
+}
+
+h1 {
+    font: 400 26pt/26pt "Sitka Heading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+
+    color: #ffffff;
+}
+
+h2 {
+    font: 400 20pt/27pt "Sitka Subheading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+}
+
+a:link {
+    color: #ffb72f;
+}
+
+a:visited {
+    color: #fe6f5e;
+}
+
+time{color:#cd8182;}
+
+ul.episode-list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.3;
+}
+
+@media (max-width: 50em) {
+    ul.episode-list li {
+        margin: 1em 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:after {
+    content: "°";
+    color: #cd8182;
+}
+
+a:hover {
+    background: #7C241E;
+}
