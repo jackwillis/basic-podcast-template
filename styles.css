@@ -14,13 +14,13 @@ body {
 }
 
 h1 {
-    font: 400 26pt/26pt "Sitka Heading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+    font: 400 2em/1em "Sitka Heading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
 
     color: #ffffff;
 }
 
 h2 {
-    font: 400 20pt/27pt "Sitka Subheading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
+    font: 400 1.5em/2.0 "Sitka Subheading", "Iowan Old Style", "Droid Serif", "Bitstream Vera Serif", serif;
 }
 
 a:link {
@@ -40,8 +40,14 @@ ul.episode-list {
 }
 
 @media (max-width: 50em) {
+    body {
+        max-width: 30em;
+        font-size: 16pt;
+        line-height: 24pt;
+    }
+
     main, ul.episode-list li {
-        margin: 1em 0;
+        margin: 2em 0;
     }
 }
 
