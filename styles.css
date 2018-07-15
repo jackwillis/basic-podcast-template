@@ -40,7 +40,7 @@ ul.episode-list {
 }
 
 @media (max-width: 50em) {
-    ul.episode-list li {
+    main, ul.episode-list li {
         margin: 1em 0;
     }
 }
